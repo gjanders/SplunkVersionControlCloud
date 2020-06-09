@@ -15,12 +15,17 @@ The dashboard within the application is only useful when the Splunk Version Cont
 
 ## SplunkBase Links
 [VersionControl For SplunkCloud](https://splunkbase.splunk.com/app/5061)
-[VersionControl For Splunk](https://splunkbase.splunk.com/app/4355)
+
+[VersionControl For Splunk (full app for backup/restore)](https://splunkbase.splunk.com/app/4355)
 
 ## Github Links
 [SplunkVersionControl github](https://github.com/gjanders/SplunkVersionControl)
+
 [SplunkVersionControlCloud github](https://github.com/gjanders/SplunkVersionControlCloud)
 
 ## Release Notes 
+### 0.0.2
+README.md update only
+
 ### 0.0.1
 Initial version
