@@ -24,6 +24,9 @@ The dashboard within the application is only useful when the Splunk Version Cont
 [SplunkVersionControlCloud github](https://github.com/gjanders/SplunkVersionControlCloud)
 
 ## Release Notes 
+### 0.0.3
+Updated the `splunkversioncontrol_globalexclusionlist.csv` lookup to exclude various cloud specific apps
+
 ### 0.0.2
 README.md update only
 
