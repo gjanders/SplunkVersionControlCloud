@@ -11,7 +11,7 @@ The full application contains python code that would not work within the SplunkC
 
 ## How do I use this application? 
 
-The dashboard within the application is only useful when the Splunk Version Control application is up and running remotely to create backups and trigger restores, please refer to the SplunkBase and github links below
+The dashboard within the application is only useful when the Splunk Version Control application is up and running remotely to create backups and trigger restores, please refer to the SplunkBase and github links below to install the VersionControl For Splunk on non-SplunkCloud Splunk instance
 
 ## SplunkBase Links
 [VersionControl For SplunkCloud](https://splunkbase.splunk.com/app/5061)
@@ -23,7 +23,18 @@ The dashboard within the application is only useful when the Splunk Version Cont
 
 [SplunkVersionControlCloud github](https://github.com/gjanders/SplunkVersionControlCloud)
 
+## Alternatives?
+[PayChex Cover Your Assets](https://github.com/paychex/Splunk.Conf19)
+
+Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
+
 ## Release Notes 
+### 0.0.5
+Added a new macro `splunk_vc_ko_query` and a new savedsearch `splunk_vc_kom_audit_summary`
+This relates to new functionality in the [VersionControl For Splunk (full app for backup/restore)](https://splunkbase.splunk.com/app/4355) app
+
+Added the version=1.1 flag inside the dashboards for Splunk 8.2 compatability
+
 ### 0.0.4
 Updated the `splunkversioncontrol_globalexclusionlist.csv` lookup to exclude an additional cloud specific app
 
