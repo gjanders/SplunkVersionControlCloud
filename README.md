@@ -11,7 +11,7 @@ The full application contains python code that would not work within the SplunkC
 
 ## How do I use this application? 
 
-The dashboard within the application is only useful when the Splunk Version Control application is up and running remotely to create backups and trigger restores, please refer to the SplunkBase and github links below to install the VersionControl For Splunk on non-SplunkCloud Splunk instance
+The dashboard within the application is only useful when the Splunk Version Control application is up and running remotely to create backups and trigger restores, please refer to the SplunkBase and github links below to install the VersionControl For Splunk on a non-SplunkCloud Splunk instance
 
 ## SplunkBase Links
 [VersionControl For SplunkCloud](https://splunkbase.splunk.com/app/5061)
