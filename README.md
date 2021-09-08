@@ -29,6 +29,17 @@ The dashboard within the application is only useful when the Splunk Version Cont
 Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
 
 ## Release Notes 
+### 0.0.6
+Updates to dashboards:
+`splunkversioncontrol_restore.xml`
+
+To provide a drop down list of available knowledge objects in addition to the text field option
+
+Updated reports:
+`SplunkVersionControl CheckAdmin` - simplified to use the Splunk users list
+
+`splunk_vc_kom_audit_summary` - updated to ignore the manager URI's and handle proxied REST calls from the KOM report
+
 ### 0.0.5
 Added a new macro `splunk_vc_ko_query` and a new savedsearch `splunk_vc_kom_audit_summary`
 This relates to new functionality in the [VersionControl For Splunk (full app for backup/restore)](https://splunkbase.splunk.com/app/4355) app
