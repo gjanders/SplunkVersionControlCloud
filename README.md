@@ -29,6 +29,9 @@ The dashboard within the application is only useful when the Splunk Version Cont
 Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
 
 ## Release Notes 
+### 0.0.7
+Updated metadata file to allow `sc_admin` role read/write access
+
 ### 0.0.6
 Updates to dashboards:
 `splunkversioncontrol_restore.xml`

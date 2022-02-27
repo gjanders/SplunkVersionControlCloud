@@ -5,12 +5,12 @@
     "id": {
       "group": null,
       "name": "SplunkVersionControlCloud",
-      "version": "0.0.6"
+      "version": "0.0.7"
     },
     "author": [
       {
         "name": "Gareth Anderson",
-        "email": null,
+        "email": "gareth.anderson03@gmail.com",
         "company": null
       }
     ],
