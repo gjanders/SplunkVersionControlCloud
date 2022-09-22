@@ -29,6 +29,10 @@ The dashboard within the application is only useful when the Splunk Version Cont
 Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
 
 ## Release Notes 
+### 0.0.8
+Updated the savedsearches for the `_audit` index query to look for info=completed as well as info=granted, as this does not appear in Splunk 9
+Updated the splunk restore dashboard to mention that wildcards are now supported for restoration
+
 ### 0.0.7
 Updated metadata file to allow `sc_admin` role read/write access
 
