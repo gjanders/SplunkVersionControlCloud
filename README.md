@@ -4,10 +4,10 @@
 
 This application is the simplified version of the Splunk Version Control application (VersionControl For Splunk on SplunkBase)
 
-This application provides the dashboards, saved searches, macros and lookups required to allow a remote backup from the Splunk Version Control application
+This application provides the dashboards, saved searches, macros and lookups required to allow a remote backup from the Splunk Version Control application. Note that this application does not remove the requirement for a Splunk enterprise instance running remotely to run the backup/restore.
 
 ## Why?
-The full application contains python code that would not work within the SplunkCloud environment, this simplified version contains no python code or custom commands
+The full application contains python code that would not work within the SplunkCloud environment, this simplified version contains no python code or custom commands. The full application can run remotely to complete the backup/restore as required.
 
 ## How do I use this application? 
 
@@ -36,6 +36,9 @@ As of October 2022, there are still no signs of version control within the Splun
 Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
 
 ## Release Notes 
+### 0.0.9
+README.md update
+
 ### 0.0.8
 Updated the savedsearches for the `_audit` index query to look for info=completed as well as info=granted, as this does not appear in Splunk 9
 Updated the splunk restore dashboard to mention that wildcards are now supported for restoration
