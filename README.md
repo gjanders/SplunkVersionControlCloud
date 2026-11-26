@@ -24,18 +24,26 @@ The dashboard within the application is only useful when the Splunk Version Cont
 [SplunkVersionControlCloud github](https://github.com/gjanders/SplunkVersionControlCloud)
 
 ## How does this compare with other version control apps for Splunk?
-As of October 2022, there are still no signs of version control within the Splunk Enterprise (or cloud) product, however you do have a few options in terms of a version control app, these include:
+As of November 2026, there are is limited version control within the Splunk Enterprise (or cloud) products for dashboards, and within the Splunk ES product. You do have a few options in terms of a version control app, these include:
 - [Git Version Control for Splunk](https://splunkbase.splunk.com/app/4182) - this app provides a modular input to help with getting configuration into a git repository from the filesystem. Note: on-prem instances only, no Splunk Cloud support.
 - [FN1315 - Cover Your Assets: Protect Your Knowledge Objects from Yourself (and Others) - A Paychex story github](https://github.com/paychex/Splunk.Conf19) - this git location provides a list of searches that produce curl commands you can use to restore objects. This can work on-prem or in Splunk Cloud
 - [Splunk2Git](https://github.com/paychex/splunk-python/tree/main/Splunk2Git) - Paychex's script to move Splunk knowledge objects into git using REST API
 - [Version Control for Splunk](https://splunkbase.splunk.com/app/4355) - this app uses the REST API to download configuration and store inside a git repository in JSON format. Supports restoration of objects via dashboard (no admin support required). This can work on-prem or on Splunk Cloud remotely (this app runs on prem)
 - [VersionControl for SplunkCloud (this app)](https://splunkbase.splunk.com/app/5061) - these are the dashboards and savedsearches that are installed on the SplunkCloud instance to support the version control app running remotely
 - [Search Head Backup](https://splunkbase.splunk.com/app/6438) - backup to an index, works in Splunk Cloud
+- [Conf Manager](https://splunkbase.splunk.com/app/6895) - change tracking via the kV Store, knowledge object search
+- [Package Apps for Splunk](https://splunkbase.splunk.com/app/6686) - packages apps for download (entire app), with alternatives [Remote Config Manager](https://splunkbase.splunk.com/app/6277) and [ACS Helper for Splunk](https://splunkbase.splunk.com/app/6856)
 
 ## Splunk alternatives
-Or if the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality..
+If the idea [Source Control on ideas.splunk.com](https://ideas.splunk.com/ideas/E-I-7) is implemented then this app will be replaced by this functionality...
+
+Splunk versions in 2026 are now including limited version control capabilities...
 
 ## Release Notes 
+### 0.0.10
+README.md updates, minor update to restore the archived app.
+Removed app.manifest file
+
 ### 0.0.9
 README.md update
 
